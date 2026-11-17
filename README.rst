@@ -1,10 +1,10 @@
 =======================
-DrugCLIP plugin
+SpatialPPIv2 plugin
 =======================
 
 **Documentation under development, sorry for the inconvenience**
 
-This is a **Scipion** plugin that offers `DrugCLIP <https://github.com/bowen-gao/DrugCLIP>`_ 
+This is a **Scipion** plugin that offers `SpatialPPIv2 <https://github.com/ohuelab/SpatialPPIv2.git>`_
 
 
 ==========================
@@ -28,7 +28,7 @@ DrugCLIP is installed automatically by scipion.
 
 .. code-block::
 
-    scipion3 installp -p scipion-chem-drugclip
+    scipion3 installp -p scipion-chem-spatialppi
 
 
 - **Developer's version**
@@ -37,24 +37,24 @@ DrugCLIP is installed automatically by scipion.
 
     .. code-block::
 
-        git clone https://github.com/scipion-chem/scipion-chem-drugclip.git
+        git clone https://github.com/scipion-chem/scipion-chem-spatialppi.git
 
     2. **Switch to the desired branch** (master or devel):
 
-    Scipion-chem-drugclip is constantly under development and including new features.
+    Scipion-chem-spatialppi is constantly under development and including new features.
     If you want a relatively older an more stable version, use master branch (default).
     If you want the latest changes and developments, user devel branch.
 
     .. code-block::
 
-                cd scipion-chem-drugclip
+                cd scipion-chem-spatialppi
                 git checkout devel
 
     3. **Install**:
 
     .. code-block::
 
-        scipion3 installp -p path_to_scipion-chem-drugclip --devel
+        scipion3 installp -p path_to_scipion-chem-spatialppi --devel
 
 
 
